@@ -1,12 +1,17 @@
-# React + Vite
+<img width="1280" height="498" alt="image" src="https://github.com/user-attachments/assets/3d301bba-c23e-44c3-9626-b726909cd600" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1280" height="567" alt="image" src="https://github.com/user-attachments/assets/1d136822-2125-4f8b-a7ee-97b3571351b6" />
 
-Currently, two official plugins are available:
+1. Form Validation (Error Message Displayed)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+When the user submits the form with a password shorter than 6 characters, a validation error message is shown below the password input field in red:
+❗️Password must be at least 6 characters
 
-## Expanding the ESLint configuration
+This ensures users meet the basic password security requirement before proceeding.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Form Submitted Successfully
+
+After entering a valid email and a strong password (6+ characters), the form submits successfully. A JavaScript alert appears showing the message:
+✅ Form submitted successfully!
+
+This confirms that client-side validations were passed and data submission was successful.
